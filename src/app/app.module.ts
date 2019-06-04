@@ -35,13 +35,13 @@ const appRoutes: Routes = [
 ];
 
 export const firebaseConfig = {
-  apiKey: "AIzaSyDDs3YooRc-SYDqf3BML5Pmdv-8gw1BlwM",
-    authDomain: "platzisquare-1553100367263.firebaseapp.com",
-    databaseURL: "https://platzisquare-1553100367263.firebaseio.com",
-    projectId: "platzisquare-1553100367263",
-    storageBucket: "platzisquare-1553100367263.appspot.com",
-    messagingSenderId: "929244829821",
-    appId: "1:929244829821:web:0324280388e2cd68"
+  apiKey: "XXXXXXX",
+    authDomain: "XXXXXX",
+    databaseURL: "http://url.com",
+    projectId: "myproject",
+    storageBucket: "XXX",
+    messagingSenderId: "00000",
+    appId: "xxxxxxxxx"
 };
 
 @NgModule({
@@ -57,7 +57,7 @@ export const firebaseConfig = {
   imports: [
     BrowserModule,
 	  AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCFDkCgUTqdrlS7_KTc_UeyjIFUCd9iqhA'
+      apiKey: 'XXXXXXXX'
     }),
     RouterModule.forRoot(appRoutes),
     /*AngularFireModule.initializeApp(firebaseConfig),
